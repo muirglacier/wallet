@@ -1,4 +1,4 @@
-import { BigNumber } from '@defichain/jellyfish-json'
+import { BigNumber } from '@muirglacier/jellyfish-json'
 
 interface useMaxLoanAmountProps {
   totalCollateralValue: BigNumber

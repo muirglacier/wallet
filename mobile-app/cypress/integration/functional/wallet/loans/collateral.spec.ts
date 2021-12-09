@@ -1,4 +1,4 @@
-import { CollateralToken } from '@defichain/whale-api-client/dist/api/loan'
+import { CollateralToken } from '@muirglacier/whale-api-client/dist/api/loan'
 import BigNumber from 'bignumber.js'
 
 context('Wallet - Loans - Add/Remove Collateral', () => {

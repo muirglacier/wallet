@@ -23,7 +23,7 @@ import {
   LoanVaultActive,
   LoanVaultState,
   LoanVaultTokenAmount
-} from '@defichain/whale-api-client/dist/api/loan'
+} from '@muirglacier/whale-api-client/dist/api/loan'
 import { createSelector } from '@reduxjs/toolkit'
 import { useTokensAPI } from '@hooks/wallet/TokensAPI'
 import { IconButton } from '@components/IconButton'

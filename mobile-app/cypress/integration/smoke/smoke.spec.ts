@@ -5,8 +5,8 @@
  * The goal is to have run smoke testing in Mainnet
  * */
 
-import { WhaleApiClient } from '@defichain/whale-api-client'
-import { PoolPairData } from '@defichain/whale-api-client/dist/api/poolpairs'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
+import { PoolPairData } from '@muirglacier/whale-api-client/dist/api/poolpairs'
 import BigNumber from 'bignumber.js'
 
 interface DexItem {

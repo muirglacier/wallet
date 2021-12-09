@@ -1,4 +1,4 @@
-import { WhaleApiClient } from '@defichain/whale-api-client'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
 
 context('Wallet - Addresses', () => {
   let whale: WhaleApiClient

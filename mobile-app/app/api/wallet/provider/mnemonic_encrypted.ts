@@ -4,7 +4,7 @@ import {
   PrivateKeyEncryption,
   PromptPassphrase,
   Scrypt
-} from '@defichain/jellyfish-wallet-encrypted'
+} from '@muirglacier/jellyfish-wallet-encrypted'
 import { getRandomBytes } from 'expo-random'
 import { EnvironmentNetwork } from '@environment'
 import { getBip32Option } from '@shared-api/wallet/network'

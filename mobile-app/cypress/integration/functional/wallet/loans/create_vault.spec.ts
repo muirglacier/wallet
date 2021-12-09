@@ -1,4 +1,4 @@
-import { LoanScheme } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanScheme } from '@muirglacier/whale-api-client/dist/api/loan'
 import BigNumber from 'bignumber.js'
 
 context('Wallet - Loans - Create vault', () => {

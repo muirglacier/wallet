@@ -17,7 +17,7 @@ import { LoanParamList } from './LoansNavigator'
 import { HeaderSearchIcon } from '@components/HeaderSearchIcon'
 import { HeaderSearchInput } from '@components/HeaderSearchInput'
 import { debounce } from 'lodash'
-import { LoanToken } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanToken } from '@muirglacier/whale-api-client/dist/api/loan'
 
 enum TabKey {
   BrowseLoans = 'BROWSE_LOANS',

@@ -1,4 +1,4 @@
-import { LoanVaultTokenAmount } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultTokenAmount } from '@muirglacier/whale-api-client/dist/api/loan'
 import BigNumber from 'bignumber.js'
 
 export function useNextCollateralizationRatio (collateralAmounts: LoanVaultTokenAmount[], loanAmounts: LoanVaultTokenAmount[]): BigNumber {

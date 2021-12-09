@@ -1,4 +1,4 @@
-import { WhaleApiClient } from '@defichain/whale-api-client'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
 import BigNumber from 'bignumber.js'
 
 context('Wallet - Send', function () {

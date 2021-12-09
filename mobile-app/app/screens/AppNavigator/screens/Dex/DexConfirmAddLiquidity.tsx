@@ -1,5 +1,5 @@
-import { CTransactionSegWit } from '@defichain/jellyfish-transaction/dist'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
+import { CTransactionSegWit } from '@muirglacier/jellyfish-transaction/dist'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
 import { NavigationProp, useNavigation } from '@react-navigation/native'
 import { StackScreenProps } from '@react-navigation/stack'
 import BigNumber from 'bignumber.js'

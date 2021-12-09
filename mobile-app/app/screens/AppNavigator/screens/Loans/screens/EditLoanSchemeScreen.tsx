@@ -1,5 +1,5 @@
 import { ThemedScrollView, ThemedSectionTitle, ThemedText, ThemedView } from '@components/themed'
-import { LoanScheme, LoanVaultActive } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanScheme, LoanVaultActive } from '@muirglacier/whale-api-client/dist/api/loan'
 import { tailwind } from '@tailwind'
 import { translate } from '@translations'
 import React, { useEffect, useState } from 'react'

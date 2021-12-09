@@ -1,5 +1,5 @@
-import { CTransactionSegWit } from '@defichain/jellyfish-transaction'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
+import { CTransactionSegWit } from '@muirglacier/jellyfish-transaction'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
 import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 export interface DfTxSigner {

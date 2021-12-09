@@ -1,4 +1,4 @@
-import { LoanVaultLiquidationBatch } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultLiquidationBatch } from '@muirglacier/whale-api-client/dist/api/loan'
 import BigNumber from 'bignumber.js'
 import { getActivePrice } from '@screens/AppNavigator/screens/Auctions/helpers/ActivePrice'
 

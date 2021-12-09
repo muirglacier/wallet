@@ -1,4 +1,4 @@
-import { NetworkName } from '@defichain/jellyfish-network'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 import React, { createContext, useContext, useEffect, useState, PropsWithChildren } from 'react'
 import { getJellyfishNetwork } from '@shared-api/wallet/network'
 import { EnvironmentNetwork } from '@environment'

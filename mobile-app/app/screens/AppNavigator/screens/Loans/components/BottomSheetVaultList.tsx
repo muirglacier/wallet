@@ -1,6 +1,6 @@
 import { View } from '@components'
 import { ThemedTouchableOpacity, ThemedText, ThemedView, ThemedIcon, ThemedFlatList } from '@components/themed'
-import { LoanVaultActive, LoanVaultState } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultActive, LoanVaultState } from '@muirglacier/whale-api-client/dist/api/loan'
 import { BottomSheetFlatList } from '@gorhom/bottom-sheet'
 import { useThemeContext } from '@shared-contexts/ThemeProvider'
 import { LoanVault } from '@store/loans'

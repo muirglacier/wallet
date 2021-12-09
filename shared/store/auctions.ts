@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { WhaleApiClient } from '@defichain/whale-api-client'
-import { LoanVaultLiquidated, LoanVaultLiquidationBatch } from '@defichain/whale-api-client/dist/api/loan'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
+import { LoanVaultLiquidated, LoanVaultLiquidationBatch } from '@muirglacier/whale-api-client/dist/api/loan'
 import { createAsyncThunk, createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { RootState } from '@store/index'
 

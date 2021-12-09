@@ -1,6 +1,6 @@
 import { StyleProp, ViewStyle } from 'react-native'
-import { AddressToken } from '@defichain/whale-api-client/dist/api/address'
-import { PoolPairData } from '@defichain/whale-api-client/dist/api/poolpairs'
+import { AddressToken } from '@muirglacier/whale-api-client/dist/api/address'
+import { PoolPairData } from '@muirglacier/whale-api-client/dist/api/poolpairs'
 import { MaterialIcons } from '@expo/vector-icons'
 import { NavigationProp, useNavigation } from '@react-navigation/native'
 import BigNumber from 'bignumber.js'

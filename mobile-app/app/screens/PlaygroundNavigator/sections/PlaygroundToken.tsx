@@ -1,5 +1,5 @@
-import { TokenInfo } from '@defichain/jellyfish-api-core/dist/category/token'
-import { PlaygroundRpcClient } from '@defichain/playground-api-client'
+import { TokenInfo } from '@muirglacier/jellyfish-api-core/dist/category/token'
+import { PlaygroundRpcClient } from '@muirglacier/playground-api-client'
 import React, { useEffect, useState } from 'react'
 import { View } from '@components/index'
 import { usePlaygroundContext } from '@contexts/PlaygroundContext'

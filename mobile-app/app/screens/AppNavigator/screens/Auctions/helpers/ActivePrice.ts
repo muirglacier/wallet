@@ -1,4 +1,4 @@
-import { ActivePrice } from '@defichain/whale-api-client/dist/api/prices'
+import { ActivePrice } from '@muirglacier/whale-api-client/dist/api/prices'
 
 export function getActivePrice (symbol: string, activePrice?: ActivePrice): string {
   if (symbol !== 'DUSD') {

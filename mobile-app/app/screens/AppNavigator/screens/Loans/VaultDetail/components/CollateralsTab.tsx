@@ -7,7 +7,7 @@ import { SymbolIcon } from '@components/SymbolIcon'
 import { translate } from '@translations'
 import NumberFormat from 'react-number-format'
 import { LoanVault } from '@store/loans'
-import { LoanVaultState } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultState } from '@muirglacier/whale-api-client/dist/api/loan'
 import { EmptyCollateral } from './EmptyCollateral'
 
 interface CollateralCardProps {

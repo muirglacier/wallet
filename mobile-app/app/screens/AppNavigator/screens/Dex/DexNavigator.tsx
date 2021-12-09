@@ -1,4 +1,4 @@
-import { PoolPairData } from '@defichain/whale-api-client/dist/api/poolpairs'
+import { PoolPairData } from '@muirglacier/whale-api-client/dist/api/poolpairs'
 import { createStackNavigator } from '@react-navigation/stack'
 import BigNumber from 'bignumber.js'
 import * as React from 'react'

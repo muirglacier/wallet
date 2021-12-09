@@ -1,8 +1,8 @@
 import { translate } from '@translations'
 import BigNumber from 'bignumber.js'
 import { DfTxSigner } from '@store/transaction_queue'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
-import { CTransactionSegWit, TransactionSegWit } from '@defichain/jellyfish-transaction'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
+import { CTransactionSegWit, TransactionSegWit } from '@muirglacier/jellyfish-transaction'
 
 export type ConversionMode = 'utxosToAccount' | 'accountToUtxos'
 

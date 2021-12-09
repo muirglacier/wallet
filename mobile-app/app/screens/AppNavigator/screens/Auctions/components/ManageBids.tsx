@@ -11,7 +11,7 @@ import { useEffect } from 'react'
 import { fetchVaults } from '@store/loans'
 import { useWhaleApiClient } from '@shared-contexts/WhaleContext'
 import { useWalletContext } from '@shared-contexts/WalletContext'
-import { LoanVaultLiquidated, LoanVaultLiquidationBatch } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultLiquidated, LoanVaultLiquidationBatch } from '@muirglacier/whale-api-client/dist/api/loan'
 import { BidCard } from './BidCard'
 import { EmptyBidsScreen } from './EmptyBidsScreen'
 

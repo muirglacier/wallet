@@ -1,5 +1,5 @@
-import { PrivateKeyEncryption, Scrypt } from '@defichain/jellyfish-wallet-encrypted'
-import { entropyAsMnemonic, mnemonicAsEntropy } from '@defichain/jellyfish-wallet-mnemonic'
+import { PrivateKeyEncryption, Scrypt } from '@muirglacier/jellyfish-wallet-encrypted'
+import { entropyAsMnemonic, mnemonicAsEntropy } from '@muirglacier/jellyfish-wallet-mnemonic'
 import { getRandomBytes } from 'expo-random'
 import { SecuredStoreAPI } from '@api'
 

@@ -1,7 +1,7 @@
-import { CTransactionSegWit } from '@defichain/jellyfish-transaction/dist'
-import { JellyfishWallet, WalletHdNodeProvider } from '@defichain/jellyfish-wallet'
-import { MnemonicHdNode } from '@defichain/jellyfish-wallet-mnemonic'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
+import { CTransactionSegWit } from '@muirglacier/jellyfish-transaction/dist'
+import { JellyfishWallet, WalletHdNodeProvider } from '@muirglacier/jellyfish-wallet'
+import { MnemonicHdNode } from '@muirglacier/jellyfish-wallet-mnemonic'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {

@@ -3,7 +3,7 @@ import { ThemedSectionTitle, ThemedText } from '@components/themed'
 import { View } from 'react-native'
 import { tailwind } from '@tailwind'
 import { translate } from '@translations'
-import { LoanVaultTokenAmount } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultTokenAmount } from '@muirglacier/whale-api-client/dist/api/loan'
 import NumberFormat from 'react-number-format'
 import { CollateralTokenItemRow } from './CollateralTokenItemRow'
 

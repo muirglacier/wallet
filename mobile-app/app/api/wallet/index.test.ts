@@ -1,5 +1,5 @@
-import { MnemonicProviderData } from '@defichain/jellyfish-wallet-mnemonic'
-import { WhaleApiClient } from '@defichain/whale-api-client'
+import { MnemonicProviderData } from '@muirglacier/jellyfish-wallet-mnemonic'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
 import { EnvironmentNetwork } from '@environment'
 import { initJellyfishWallet } from './index'
 import { WalletPersistenceDataI, WalletType } from '@shared-contexts/WalletPersistenceContext'

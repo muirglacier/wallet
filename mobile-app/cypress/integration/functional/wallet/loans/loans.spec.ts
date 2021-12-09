@@ -1,4 +1,4 @@
-import { LoanToken } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanToken } from '@muirglacier/whale-api-client/dist/api/loan'
 import { EnvironmentNetwork } from '../../../../../../shared/environment'
 
 context('Wallet - Loans', () => {

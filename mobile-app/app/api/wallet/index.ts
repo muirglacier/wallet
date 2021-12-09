@@ -1,6 +1,6 @@
-import { JellyfishWallet, WalletHdNode, WalletHdNodeProvider } from '@defichain/jellyfish-wallet'
-import { WhaleApiClient } from '@defichain/whale-api-client'
-import { WhaleWalletAccount, WhaleWalletAccountProvider } from '@defichain/whale-api-wallet'
+import { JellyfishWallet, WalletHdNode, WalletHdNodeProvider } from '@muirglacier/jellyfish-wallet'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
+import { WhaleWalletAccount, WhaleWalletAccountProvider } from '@muirglacier/whale-api-wallet'
 import { EnvironmentNetwork } from '@environment'
 import { getJellyfishNetwork } from '@shared-api/wallet/network'
 

@@ -1,5 +1,5 @@
 import { ThemedFlatList, ThemedIcon, ThemedText, ThemedView } from '@components/themed'
-import { LoanVaultTokenAmount } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultTokenAmount } from '@muirglacier/whale-api-client/dist/api/loan'
 import { BottomSheetFlatList } from '@gorhom/bottom-sheet'
 import { useThemeContext } from '@shared-contexts/ThemeProvider'
 import { tailwind } from '@tailwind'

@@ -1,6 +1,6 @@
 import { translate } from '@translations'
-import { CTransactionSegWit, PlaceAuctionBid } from '@defichain/jellyfish-transaction/dist'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
+import { CTransactionSegWit, PlaceAuctionBid } from '@muirglacier/jellyfish-transaction/dist'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
 import { useLogger } from '@shared-contexts/NativeLoggingProvider'
 import { hasTxQueued, transactionQueue } from '@store/transaction_queue'
 import { useDispatch, useSelector } from 'react-redux'

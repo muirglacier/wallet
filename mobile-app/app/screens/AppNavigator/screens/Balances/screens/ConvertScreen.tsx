@@ -1,6 +1,6 @@
 import { InputHelperText } from '@components/InputHelperText'
 import { WalletTextInput } from '@components/WalletTextInput'
-import { AddressToken } from '@defichain/whale-api-client/dist/api/address'
+import { AddressToken } from '@muirglacier/whale-api-client/dist/api/address'
 import { NavigationProp, useNavigation } from '@react-navigation/native'
 import { StackScreenProps } from '@react-navigation/stack'
 import BigNumber from 'bignumber.js'

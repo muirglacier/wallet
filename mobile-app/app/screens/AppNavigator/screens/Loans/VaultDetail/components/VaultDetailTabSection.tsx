@@ -1,6 +1,6 @@
 import { Tabs } from '@components/Tabs'
 import { ThemedView } from '@components/themed'
-import { LoanVaultState } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultState } from '@muirglacier/whale-api-client/dist/api/loan'
 import { LoanVault } from '@store/loans'
 import React, { useEffect, useState } from 'react'
 import { LoansTab } from './LoansTab'

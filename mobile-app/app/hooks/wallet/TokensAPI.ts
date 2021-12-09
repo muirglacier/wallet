@@ -1,4 +1,4 @@
-import { WhaleApiClient } from '@defichain/whale-api-client'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Dispatch } from 'redux'

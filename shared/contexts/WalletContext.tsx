@@ -1,6 +1,6 @@
 import React, { createContext, PropsWithChildren, useContext, useEffect, useMemo, useState } from 'react'
-import { JellyfishWallet, WalletHdNode } from '@defichain/jellyfish-wallet'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
+import { JellyfishWallet, WalletHdNode } from '@muirglacier/jellyfish-wallet'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
 import { useNetworkContext } from './NetworkContext'
 import { useWhaleApiClient } from './WhaleContext'
 import { useWalletNodeContext } from './WalletNodeProvider'
@@ -9,7 +9,7 @@ import { useLogger } from '@shared-contexts/NativeLoggingProvider'
 
 interface WalletContextI {
   /**
-   * The entire HD Wallet, powered by @defichain/jellyfish-wallet
+   * The entire HD Wallet, powered by @muirglacier/jellyfish-wallet
    */
   wallet: JellyfishWallet<WhaleWalletAccount, WalletHdNode>
   /**

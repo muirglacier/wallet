@@ -2,7 +2,7 @@ import {
   generateMnemonicWords,
   MnemonicHdNodeProvider,
   MnemonicProviderData
-} from '@defichain/jellyfish-wallet-mnemonic'
+} from '@muirglacier/jellyfish-wallet-mnemonic'
 import { getRandomBytes } from 'expo-random'
 import { EnvironmentNetwork } from '@environment'
 import { getBip32Option } from '@shared-api/wallet/network'

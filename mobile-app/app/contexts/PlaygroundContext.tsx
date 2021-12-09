@@ -1,4 +1,4 @@
-import { PlaygroundApiClient, PlaygroundRpcClient } from '@defichain/playground-api-client'
+import { PlaygroundApiClient, PlaygroundRpcClient } from '@muirglacier/playground-api-client'
 import React, { createContext, useContext, useMemo } from 'react'
 import { EnvironmentNetwork, isPlayground } from '@environment'
 import { useNetworkContext } from '@shared-contexts/NetworkContext'

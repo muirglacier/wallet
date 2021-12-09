@@ -1,4 +1,4 @@
-import { DeFiAddress } from '@defichain/jellyfish-address'
+import { DeFiAddress } from '@muirglacier/jellyfish-address'
 import '@testing-library/cypress/add-commands'
 import { BalanceTokenDetail } from '../integration/functional/wallet/balances/balances.spec'
 

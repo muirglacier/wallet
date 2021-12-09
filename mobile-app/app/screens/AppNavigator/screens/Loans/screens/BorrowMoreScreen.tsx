@@ -18,7 +18,7 @@ import { loanTokenByTokenId, vaultsSelector } from '@store/loans'
 import { Button } from '@components/Button'
 import { hasTxQueued } from '@store/transaction_queue'
 import { hasTxQueued as hasBroadcastQueued } from '@store/ocean'
-import { LoanVaultActive } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultActive } from '@muirglacier/whale-api-client/dist/api/loan'
 import { useLoanOperations } from '../hooks/LoanOperations'
 import { useInterestPerBlock } from '../hooks/InterestPerBlock'
 

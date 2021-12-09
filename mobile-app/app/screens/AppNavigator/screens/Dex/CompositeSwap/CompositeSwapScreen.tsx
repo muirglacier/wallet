@@ -16,7 +16,7 @@ import { queueConvertTransaction, useConversion } from '@hooks/wallet/Conversion
 import { useTokensAPI } from '@hooks/wallet/TokensAPI'
 import { useLogger } from '@shared-contexts/NativeLoggingProvider'
 import { useWhaleApiClient } from '@shared-contexts/WhaleContext'
-import { PoolPairData } from '@defichain/whale-api-client/dist/api/poolpairs'
+import { PoolPairData } from '@muirglacier/whale-api-client/dist/api/poolpairs'
 import { StackScreenProps } from '@react-navigation/stack'
 import {
   ThemedIcon,

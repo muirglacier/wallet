@@ -14,7 +14,7 @@ import { WalletParamList } from '@screens/WalletNavigator/WalletNavigator'
 import { useLogger } from '@shared-contexts/NativeLoggingProvider'
 import { useWhaleApiClient } from '@shared-contexts/WhaleContext'
 import { WalletAddressIndexPersistence } from '@api/wallet/address_index'
-import { EncryptedProviderData } from '@defichain/jellyfish-wallet-encrypted'
+import { EncryptedProviderData } from '@muirglacier/jellyfish-wallet-encrypted'
 import { MAX_ALLOWED_ADDRESSES } from '@shared-contexts/WalletContext'
 
 type Props = StackScreenProps<WalletParamList, 'PinConfirmation'>

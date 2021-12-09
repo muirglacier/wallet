@@ -1,4 +1,4 @@
-import { CTransactionSegWit } from '@defichain/jellyfish-transaction'
+import { CTransactionSegWit } from '@muirglacier/jellyfish-transaction'
 import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 export interface OceanTransaction {

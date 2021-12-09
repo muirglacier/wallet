@@ -1,6 +1,6 @@
 import { DfTxSigner } from '@store/transaction_queue'
-import { WhaleWalletAccount } from '@defichain/whale-api-wallet'
-import { CTransactionSegWit } from '@defichain/jellyfish-transaction'
+import { WhaleWalletAccount } from '@muirglacier/whale-api-wallet'
+import { CTransactionSegWit } from '@muirglacier/jellyfish-transaction'
 import { Authentication } from '@store/authentication'
 import { WalletAlert } from '@components/WalletAlert'
 import { translate } from '@translations'

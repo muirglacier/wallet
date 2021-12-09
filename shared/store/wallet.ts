@@ -1,5 +1,5 @@
-import { AddressToken } from '@defichain/whale-api-client/dist/api/address'
-import { PoolPairData } from '@defichain/whale-api-client/dist/api/poolpairs'
+import { AddressToken } from '@muirglacier/whale-api-client/dist/api/address'
+import { PoolPairData } from '@muirglacier/whale-api-client/dist/api/poolpairs'
 import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import BigNumber from 'bignumber.js'
 

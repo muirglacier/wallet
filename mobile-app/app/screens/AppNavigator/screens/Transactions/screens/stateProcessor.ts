@@ -1,4 +1,4 @@
-import { AddressActivity } from '@defichain/whale-api-client/dist/api/address'
+import { AddressActivity } from '@muirglacier/whale-api-client/dist/api/address'
 import { MaterialIcons } from '@expo/vector-icons'
 import BigNumber from 'bignumber.js'
 

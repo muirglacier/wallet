@@ -5,7 +5,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import { RootState } from '@store'
 import { block } from '@store/block'
-import { LoanVaultLiquidated, LoanVaultState } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultLiquidated, LoanVaultState } from '@muirglacier/whale-api-client/dist/api/loan'
 
 jest.mock('@shared-contexts/ThemeProvider')
 jest.mock('@shared-contexts/NetworkContext')

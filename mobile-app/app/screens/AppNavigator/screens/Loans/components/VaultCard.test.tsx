@@ -1,7 +1,7 @@
 import React from 'react'
 import { VaultCard, VaultCardProps } from './VaultCard'
 import { render } from '@testing-library/react-native'
-import { LoanVaultState } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanVaultState } from '@muirglacier/whale-api-client/dist/api/loan'
 
 jest.mock('@shared-contexts/ThemeProvider')
 jest.mock('@react-navigation/native', () => ({

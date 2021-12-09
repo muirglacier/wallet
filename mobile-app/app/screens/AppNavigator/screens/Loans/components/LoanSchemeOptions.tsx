@@ -1,6 +1,6 @@
 import { View } from '@components'
 import { ThemedIcon, ThemedText, ThemedTouchableOpacity, ThemedView } from '@components/themed'
-import { LoanScheme } from '@defichain/whale-api-client/dist/api/loan'
+import { LoanScheme } from '@muirglacier/whale-api-client/dist/api/loan'
 import { tailwind } from '@tailwind'
 import { translate } from '@translations'
 import React from 'react'

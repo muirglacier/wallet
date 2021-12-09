@@ -1,4 +1,4 @@
-import { EncryptedProviderData } from '@defichain/jellyfish-wallet-encrypted'
+import { EncryptedProviderData } from '@muirglacier/jellyfish-wallet-encrypted'
 import { MnemonicEncrypted } from '@api/wallet'
 import { EnvironmentNetwork } from '@environment'
 import { WalletPersistenceDataI, WalletType } from '@shared-contexts/WalletPersistenceContext'
