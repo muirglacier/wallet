@@ -5,6 +5,6 @@ labels: kind/question
 ---
 
 <!--
-If the matter is security related, please disclose it privately via security@defichain.com
+If the matter is security related, please disclose it privately via security@muirglacier.com
 -->
 

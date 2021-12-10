@@ -3,8 +3,8 @@
     "name": "High Fee Wallet",
     "description": "DeFi Blockchain Light Wallet for iOS, Android & Web.",
     "slug": "wallet",
-    "owner": "muirglacier",
-    "version": "0.0.0",
+    "owner": "cagara",
+    "version": "0.0.3",
     "orientation": "portrait",
     "icon": "./shared/assets/images/icon.png",
     "scheme": "myapp",
@@ -23,7 +23,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.aftermarket.defichain.app",
-      "buildNumber": "0.0.0",
+      "buildNumber": "0.0.3",
       "infoPlist": {
         "NSFaceIDUsageDescription": "This app uses FaceID to enable privacy lock on device."
       }
@@ -33,7 +33,7 @@
         "foregroundImage": "./shared/assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.defichain.app",
+      "package": "com.aftermarket.defichain.app",
       "versionCode": 0,
       "intentFilters": [
         {

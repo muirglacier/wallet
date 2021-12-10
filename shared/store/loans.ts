@@ -164,5 +164,5 @@ export const vaultsSelector = createSelector((state: LoansState) => state.vaults
       loanAmounts: modifiedLoanAmounts,
       interestAmounts: modifiedInterestAmounts
     }
-  }) as LoanVault[]
+  })
 })

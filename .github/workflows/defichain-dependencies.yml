@@ -16,7 +16,7 @@ jobs:
 
       - name: Upgrade dependencies
         run: |
-          npx npm-check-updates -l m -u --deep --target newest --pre -f "/^defichain|@defichain\/.+/" -x "/^@defichain\/(whale|playground)-.+/" \
+          npx npm-check-updates -l m -u --deep --target newest --pre -f "/^defichain|@muirglacier\/.+/" -x "/^@muirglacier\/(whale|playground)-.+/" \
           | grep -q 'Run npm install to install new versions' && \
           npm i
 
@@ -46,7 +46,7 @@ jobs:
 
       - name: Upgrade dependencies
         run: |
-          npx npm-check-updates -l m -u --deep --target newest --pre -f "/^@defichain\/whale-.+/" \
+          npx npm-check-updates -l m -u --deep --target newest --pre -f "/^@muirglacier\/whale-.+/" \
           | grep -q 'Run npm install to install new versions' && \
           npm i
 
@@ -76,7 +76,7 @@ jobs:
 
       - name: Upgrade dependencies
         run: |
-          npx npm-check-updates -l m -u --deep --target newest --pre -f "/^@defichain\/playground-.+/" \
+          npx npm-check-updates -l m -u --deep --target newest --pre -f "/^@muirglacier\/playground-.+/" \
           | grep -q 'Run npm install to install new versions' && \
           npm i
 
